@@ -1,0 +1,18 @@
+---
+- name: My First Ansible Playbook
+  hosts: localhost
+  connection: local
+  gather_facts: yes
+
+  tasks:
+    - name: Print Hello World
+      debug:
+        msg: "Hello, Ansible is working!"
+
+    - name: Show hostname
+      command: hostname
+      register: hostname_output
+
+    - name: Display hostname
+      debug:
+        var: hostname_output.stdout
