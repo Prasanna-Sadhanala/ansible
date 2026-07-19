@@ -20,11 +20,13 @@ Idempotence and predictability.
 
 # Start automating with Ansible
 1. install
+
     pip install ansible
 
 2. Create a project folder on your filesystem
+
     mkdir ansible_quickstart && cd ansible_quickstart
-    1. Building an inventory
+# Building an inventory
 Continue getting started with Ansible and build an inventory as follows:
 1. Create a file named inventory.ini in the ansible_quickstart directory that you created in the preceding step.
 
