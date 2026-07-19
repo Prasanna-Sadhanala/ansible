@@ -24,7 +24,7 @@ Idempotence and predictability.
 
 2. Create a project folder on your filesystem
     mkdir ansible_quickstart && cd ansible_quickstart
-    # Building an inventory
+    1. Building an inventory
 Continue getting started with Ansible and build an inventory as follows:
 1. Create a file named inventory.ini in the ansible_quickstart directory that you created in the preceding step.
 
