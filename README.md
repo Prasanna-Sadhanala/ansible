@@ -9,7 +9,8 @@ Continuously deploy complex software
 
 Perform zero-downtime rolling update
 
-#As automation technology, Ansible is designed around the following principles:
+# As automation technology, Ansible is designed around the following principles:
+
 Agent-less Architecture
 Simplicity
 Scalability and flexibility
