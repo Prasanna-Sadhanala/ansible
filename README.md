@@ -9,13 +9,13 @@ Continuously deploy complex software
 
 Perform zero-downtime rolling update
 
-As automation technology, Ansible is designed around the following principles:
-# Agent-less Architecture
-# Simplicity
-# Scalability and flexibility
-# Idempotence and predictability
+#As automation technology, Ansible is designed around the following principles:
+Agent-less Architecture
+Simplicity
+Scalability and flexibility
+Idempotence and predictability
 
-Start automating with Ansible
+# Start automating with Ansible
 ==============================
 1.install
     pip install ansible
