@@ -1,5 +1,9 @@
+# -name: sp
+# host: localhost
+# task: collection of the details
+# -name: Prasanna
 -name: sp
-host: localhost
+host: frontend
 task: collection of the details
 -name: Prasanna
   
