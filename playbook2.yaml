@@ -5,7 +5,7 @@
 
 
 - name: sp
-  host: frontend
+  hosts: frontend
   tasks: #collection of the details
     - name: Prasanna
   
