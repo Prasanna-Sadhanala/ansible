@@ -9,4 +9,5 @@
   tasks: #collection of the details
     - name: Prasanna
       debug:
+        msg: it is successful with ansible command
   
