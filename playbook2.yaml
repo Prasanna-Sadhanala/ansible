@@ -10,4 +10,18 @@
     - name: Prasanna
       debug:
         msg: it is successful with ansible command
+
+- name: Terminate AWS EC2 Instance
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  tasks:
+    - name: Delete specific EC2 instance by ID
+      amazon.aws.ec2_instance:
+        instance_ids:
+          - "i-0c6d57a6efd28a1e5"
+          - "i-09cc89254712df02a"
+        state: absent
+        region: us-east-1
   
