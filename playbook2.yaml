@@ -12,8 +12,8 @@
         msg: it is successful with ansible command
 
 - name: Terminate AWS EC2 Instance
-  hosts: localhost
-  connection: local
+  hosts: frontend
+  connection: remote
   gather_facts: false
 
   tasks:
