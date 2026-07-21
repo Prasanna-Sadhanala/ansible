@@ -4,8 +4,8 @@
 # -name: Prasanna
 
 
--name: sp
-host: frontend
-tasks: #collection of the details
-    -name: Prasanna
+- name: sp
+  host: frontend
+  tasks: #collection of the details
+    - name: Prasanna
   
