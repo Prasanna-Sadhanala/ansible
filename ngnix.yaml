@@ -1,5 +1,5 @@
 ---
-- name: Install Nginx on localhost
+- name: Install Nginx on frontend
   hosts: frontend
   become: yes
 
